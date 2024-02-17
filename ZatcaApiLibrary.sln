@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZatcaApiLibrary", "ZatcaApiLibrary\ZatcaApiLibrary.csproj", "{BE29CDA7-7B35-452E-A022-2C3D175F7FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZatcaApiHttpClient", "ZatcaApiHttpClient\ZatcaApiHttpClient.csproj", "{286B3A7A-0E54-4A1B-813C-6A3EB2D5CF55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE29CDA7-7B35-452E-A022-2C3D175F7FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE29CDA7-7B35-452E-A022-2C3D175F7FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE29CDA7-7B35-452E-A022-2C3D175F7FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE29CDA7-7B35-452E-A022-2C3D175F7FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286B3A7A-0E54-4A1B-813C-6A3EB2D5CF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286B3A7A-0E54-4A1B-813C-6A3EB2D5CF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286B3A7A-0E54-4A1B-813C-6A3EB2D5CF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286B3A7A-0E54-4A1B-813C-6A3EB2D5CF55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0F504B5-7016-4A92-A6C6-DF4049B6FA5F}
+	EndGlobalSection
+EndGlobal
