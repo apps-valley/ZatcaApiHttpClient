@@ -14,7 +14,7 @@ namespace ZatcaApiHttpClient
         {
             _client = new HttpClient
             {
-                BaseAddress = new Uri("https://localhost:7181/")
+                BaseAddress = new Uri("https://zatca.quixcel.com/")
             };
         }
 
