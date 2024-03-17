@@ -43,7 +43,7 @@ namespace ZatcaApiLibrary
             Console.WriteLine("__________________________SubmitInvoice___________________________");
             var submitInvoiceResponse = await InvocieClient.SubmitInvoice(new SubmitInvoiceCommand
             {
-                DocumentId = 8001,
+                DocumentId = "8001",
                 DocumentType = InvoiceKind.TaxInvoice,
                 Currency = Currency.SAR,
                 DocumentIssueDateTime = DateTime.Now.ToKsaDateTime(),

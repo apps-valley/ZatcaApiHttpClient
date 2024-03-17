@@ -50,10 +50,10 @@ namespace ZatcaApiHttpClient.Models.Invoices
         public List<DocumentLineItem> DocumentLineItems { get; set; }
         public string ReferenceId { get; set; }
 
-        public int DocumentId { get; set; }
+        public string DocumentId { get; set; }
 
 
-        public double? DiscountOnDocumentTotal { get; set; }
+        public decimal DiscountOnDocumentTotal { get; set; }
 
         /// <summary>
         /// Reason for issuance of credit / debit note as per the VAT Implementing Regulation 
